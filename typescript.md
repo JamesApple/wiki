@@ -1,7 +1,9 @@
 ---
-created: 2021-07-03T13:26:38+10:00
-modified: 2021-07-03T13:29:24+10:00
+created: '2021-07-03T03:26:38.000Z'
+modified: '2021-07-03T03:29:24.000Z'
 ---
+
+# Typescript
 
 ## Packages
 
@@ -9,7 +11,6 @@ modified: 2021-07-03T13:29:24+10:00
 * [IO-TS: Strict runtime typing system](https://github.com/gcanti/io-ts/blob/master/index.md)
 * [Designed: Decorator based runtime type system](https://jamesapple.github.io/ts-designed/#/)
 * [SchemaTS: Generate interfaces from Postgres](https://github.com/vramework/schemats)
-
 
 ## Tutorials
 

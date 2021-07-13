@@ -59,14 +59,14 @@
 
 #### Differences: What traits of the brand could be elevated in the name
 
-> See highlighted lines
+{% hint style="info" %}
+See highlighted lines
+{% endhint %}
 
 ### Expand
 
-1. With the above names start generating additional names or phrases using a thesaurus or other tools [like from the resources page](./Branding Resources.md)
-1. Find synonyms, similes, or metaphors to describe your thought process
-
-* 
+* __Relief__
+	* 
 
 ### Collect
 

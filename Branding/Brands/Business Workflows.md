@@ -66,6 +66,8 @@
 1. With the above names start generating additional names or phrases using a thesaurus or other tools [like from the resources page](./Branding Resources.md)
 1. Find synonyms, similes, or metaphors to describe your thought process
 
+* 
+
 ### Collect
 
 1. Circle and collate 5 valuable names for this stage

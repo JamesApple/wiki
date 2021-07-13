@@ -66,7 +66,117 @@ See highlighted lines
 ### Expand
 
 * __Relief__
-	* 
+	* Favour
+	* Assist
+	* Assistance
+	* Agent
+	* Relic
+	* Easing
+	* Ease
+	* Pitcher
+	* Herald
+	* Fortify
+	* Court
+* __Confidence__
+  * Fido: Esperanto
+	* Courage
+	* Equilibrium
+	* Guidance
+* __Cutting Edge__
+	* Advancement
+	* Advanced
+	* Forefront
+	* Plow
+	* Plot
+	* Broach
+	* Ridge
+	* Croft
+* __Glad__
+	* Uplift/ed
+	* Ascent
+	* Shake
+	* Excite
+	* Stir
+	* Elate
+	* Bolt
+	* Haste
+	* Hastily
+	* Waltz
+	* Presto
+	* Prestasi: Achieve in Indonesian
+	* Anymore
+	* Coup
+	* Feint
+	* Progress
+	* Sashay
+	* Tactic
+* __Communication__
+  * Wavelength
+	* Signal
+	* Report
+	* Raise
+	* Counsel
+	* Inform
+	* Relate
+	* Relay
+	* Knit
+	* Broadcast
+	* Haven
+	* Heap
+	* Coms
+	* Tune
+	* Conversa: Catalan for conversiation
+	* Certain
+	* Mobilize
+	* Nimble
+	* Deft
+	* Sprightly
+	* Snappy
+	* Zippy
+	* Featly
+	* Limber
+* __Assigned__
+	* Want
+	* Oblige
+	* Cause
+	* Task
+	* Work
+	* Enquire
+	* Exact
+	* Asker
+	* Involved
+	* Reach
+	* Marshal
+	* Script
+	* Chisel
+	* Sculpt
+* Involve
+	* Hatch
+	* Script
+	* Arrange
+	* Chart
+	* Atlas
+	* Graph
+	* Scribe
+	* Scroll
+	* Document
+	* Codex
+	* Skulptur: Norwegian
+	* Initiative
+	* Fabricate
+	* Ally
+	* Compose
+	* Concert
+	* Harmony
+	* Spry
+	* Function
+	* Avail
+	* Passage
+	* Shared
+	* Carbon
+	* Ascribe
+	* Approach
+	* Fused
 
 ### Collect
 

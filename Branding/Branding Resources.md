@@ -9,3 +9,4 @@
 1. [Australian trademark search](https://search.ipaustralia.gov.au/trademarks/search/quick)
 1. [IWantMyName: Domain name finder](https://iwantmyname.com/)
 1. [NameMesh: Generate multiple domain names](https://www.namemesh.com/)
+1. [Word Nerd: Combines moby with definitions and cloud](https://wordnerd.fun/relief)

@@ -56,18 +56,160 @@
 * __Simplifying communication means employees are happier and get paid on time__
 * Employees don't embarrass themselves by submitting invalid data
 * Employees get started on the right foot with their business
+* More of my business runs itself
 
 #### Differences: What traits of the brand could be elevated in the name
 
-> See highlighted lines
+{% hint style="info" %}
+See highlighted lines
+{% endhint %}
 
-### Expand
+### Expand/Words
 
-1. With the above names start generating additional names or phrases using a thesaurus or other tools [like from the resources page](./Branding Resources.md)
-1. Find synonyms, similes, or metaphors to describe your thought process
+* __Relief__
+	* Favour
+	* Assist
+	* Assistance
+	* Agent
+	* Relic
+	* Easing
+	* Ease
+	* Pitcher
+	* Herald
+	* Fortify
+	* Court
 
-* 
+* __Confidence__
+  * Fido: Esperanto
+	* Courage
+	* Equilibrium
+	* Guidance
+
+* __Cutting Edge__
+	* Advancement
+	* Advanced
+	* Forefront
+	* Plow
+	* Plot
+	* Broach
+	* Ridge
+	* Croft
+
+* __Glad__
+	* Uplift/ed
+	* Ascent
+	* Shake
+	* Excite
+	* Stir
+	* Elate
+	* Bolt
+	* Haste
+	* Hastily
+	* Waltz
+	* Presto
+	* Prestasi: Achieve in Indonesian
+	* Anymore
+	* Coup
+	* Feint
+	* Progress
+	* Sashay
+	* Tactic
+
+* __Communication__
+  * Wavelength
+	* Frequency
+	* Teleport
+	* Routines
+	* Signal
+	* Report
+	* Raise
+	* Counsel
+	* Inform
+	* Relate
+	* Relay
+	* Knit
+	* Broadcast
+	* Haven
+	* Heap
+	* Coms
+	* Tune
+	* Conversa: Catalan for conversiation
+	* Certain
+	* Mobilize
+	* Nimble
+	* Deft
+	* Sprightly
+	* Snappy
+	* Zippy
+	* Featly
+	* Limber
+
+* __Assigned__
+	* Want
+	* Oblige
+	* Cause
+	* Task
+	* Work
+	* Enquire
+	* Exact
+	* Asker
+	* Involved
+	* Reach
+	* Marshal
+	* Script
+	* Chisel
+	* Sculpt
+
+* __Involve__
+	* Hatch
+	* Script
+	* Arrange
+	* Chart
+	* Atlas
+	* Graph
+	* Scribe
+	* Scroll
+	* Document
+	* Codex
+	* Skulptur: Norwegian
+	* Initiative
+	* Fabricate
+	* Ally
+	* Compose
+	* Concert
+	* Harmony
+	* Spry
+	* Function
+	* Avail
+	* Passage
+	* Shared
+	* Carbon
+	* Ascribe
+	* Approach
+	* Fused
+	* Engage
+	* Meshed
+	* Unison
+	* Details
 
 ### Collect
 
-1. Circle and collate 5 valuable names for this stage
+## Routinely ✅
+
+Routine is common for makeup brands. Routinely is taken overseas but has 0
+results in AU
+
+## Assigned/AssignIt ✅
+
+Fully available babyyyy
+
+## Synced/Synchronized ✅
+
+.com is parked but otherwise fully available
+
+## Practically ✅
+
+## WorkedUp ✅
+
+## Relayed ✅
+

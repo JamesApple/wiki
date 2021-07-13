@@ -72,3 +72,4 @@ Each stage should generate 5 valuable names
 
 1. Circle and collate 5 valuable names for this stage
 
+## Stage Two:

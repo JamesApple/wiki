@@ -56,6 +56,7 @@
 * __Simplifying communication means employees are happier and get paid on time__
 * Employees don't embarrass themselves by submitting invalid data
 * Employees get started on the right foot with their business
+* More of my business runs itself
 
 #### Differences: What traits of the brand could be elevated in the name
 
@@ -63,7 +64,7 @@
 See highlighted lines
 {% endhint %}
 
-### Expand
+### Expand/Words
 
 * __Relief__
 	* Favour
@@ -77,11 +78,13 @@ See highlighted lines
 	* Herald
 	* Fortify
 	* Court
+
 * __Confidence__
   * Fido: Esperanto
 	* Courage
 	* Equilibrium
 	* Guidance
+
 * __Cutting Edge__
 	* Advancement
 	* Advanced
@@ -91,6 +94,7 @@ See highlighted lines
 	* Broach
 	* Ridge
 	* Croft
+
 * __Glad__
 	* Uplift/ed
 	* Ascent
@@ -110,8 +114,12 @@ See highlighted lines
 	* Progress
 	* Sashay
 	* Tactic
+
 * __Communication__
   * Wavelength
+	* Frequency
+	* Teleport
+	* Routines
 	* Signal
 	* Report
 	* Raise
@@ -135,6 +143,7 @@ See highlighted lines
 	* Zippy
 	* Featly
 	* Limber
+
 * __Assigned__
 	* Want
 	* Oblige
@@ -150,7 +159,8 @@ See highlighted lines
 	* Script
 	* Chisel
 	* Sculpt
-* Involve
+
+* __Involve__
 	* Hatch
 	* Script
 	* Arrange
@@ -177,7 +187,44 @@ See highlighted lines
 	* Ascribe
 	* Approach
 	* Fused
+	* Engage
+	* Meshed
+	* Unison
+	* Details
 
 ### Collect
 
-1. Circle and collate 5 valuable names for this stage
+## Business as Usual ❌
+
+Australian domain missing
+
+## Wavelength ❌
+
+Australian domain missing
+
+## Routinely
+
+Routine is common for makeup brands. Routinely is taken overseas but has 0
+results in AU
+
+### Availability
+
+## Assigned/AssignIt ✅
+
+Fully available babyyyy
+
+## Synced ✅
+
+.com is parked but otherwise fully available
+
+## SpryGraph ✅
+
+Fully available babyyyy
+
+## Practically ✅
+
+## WorkedUp ✅
+
+## Scriptable
+
+.com taken but all trademarks lapsed

@@ -8,8 +8,8 @@
 
 #### Experiences: Words, Phrases, sounds, or feelings
 
-* Relief
-* Confidence
+* _Relief_
+* _Confidence_
 * Contentedness
 * Flexible
 * Excitement
@@ -19,12 +19,12 @@
 * Calmed
 * Confidence
 * We're the best
-* We're cutting edge
+* _We're cutting edge_
 * Advanced
 * Ahead of the competition
 * Compliant
 * Relaxed
-* Glad I don't have to do that anymore
+* _Glad I don't have to do that anymore_
 
 #### Senses: Sensations that might come from interacting with the brand
 
@@ -35,14 +35,14 @@
 * Paid Employees
 * Simple Audits
 * Less Calls and Emails
-* Less Paper
+* _Less Paper_
 * Recurring Compliance
 * No more lost data
-* Less Data Entry
+* _Less Data Entry_
 * No more chasing up employees for physical documents
-* Modernized Business
+* _Modernized Business_
 * Less friction between business units
-* Unified employee -> business communication
+* _Unified employee -> business communication_
 * Keep all my existing services
 
 #### Values: How do your brands values and beliefs enhance the users life

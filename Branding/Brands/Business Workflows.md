@@ -20,18 +20,33 @@
 * Confidence
 * We're the best
 * We're cutting edge
+* Advanced
+* Ahead of the competition
+* Compliant
+* Relaxed
+* Glad I don't have to do that anymore
 
 #### Senses: Sensations that might come from interacting with the brand
 
-*
+* The smell of a warm CPU
 
 #### Outcomes: What do customers achieve when working with your brand
 
-*
+* Paid Employees
+* Simple Audits
+* Less Calls and Emails
+* Less Paper
+* Recurring Compliance
+* No more lost data
+* Less Data Entry
+* No more chasing up employees for physical documents
+* Modernized Business
+* 
 
 #### Values: How do your brands values and beliefs enhance the users life
 
 *
+
 #### Differences: What traits of the brand could be elevated in the name
 
 *

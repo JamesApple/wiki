@@ -194,37 +194,22 @@ See highlighted lines
 
 ### Collect
 
-## Business as Usual ❌
-
-Australian domain missing
-
-## Wavelength ❌
-
-Australian domain missing
-
-## Routinely
+## Routinely ✅
 
 Routine is common for makeup brands. Routinely is taken overseas but has 0
 results in AU
-
-### Availability
 
 ## Assigned/AssignIt ✅
 
 Fully available babyyyy
 
-## Synced ✅
+## Synced/Synchronized ✅
 
 .com is parked but otherwise fully available
-
-## SpryGraph ✅
-
-Fully available babyyyy
 
 ## Practically ✅
 
 ## WorkedUp ✅
 
-## Scriptable
+## Relayed ✅
 
-.com taken but all trademarks lapsed

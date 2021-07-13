@@ -8,8 +8,8 @@
 
 #### Experiences: Words, Phrases, sounds, or feelings
 
-* _Relief_
-* _Confidence_
+* __Relief__
+* __Confidence__
 * Contentedness
 * Flexible
 * Excitement
@@ -19,12 +19,12 @@
 * Calmed
 * Confidence
 * We're the best
-* _We're cutting edge_
+* __We're cutting edge__
 * Advanced
 * Ahead of the competition
 * Compliant
 * Relaxed
-* _Glad I don't have to do that anymore_
+* __Glad I don't have to do that anymore__
 
 #### Senses: Sensations that might come from interacting with the brand
 
@@ -35,14 +35,14 @@
 * Paid Employees
 * Simple Audits
 * Less Calls and Emails
-* _Less Paper_
+* __Less Paper__
 * Recurring Compliance
 * No more lost data
-* _Less Data Entry_
+* __Less Data Entry__
 * No more chasing up employees for physical documents
-* _Modernized Business_
+* __Modernized Business__
 * Less friction between business units
-* _Unified employee -> business communication_
+* __Unified employee -> business communication__
 * Keep all my existing services
 
 #### Values: How do your brands values and beliefs enhance the users life
@@ -50,10 +50,10 @@
 * Codify your processes
 * Lets you do what you do now but better
 * No big HR company getting in the way
-* _Being trusted means I can do just do my job_
+* __Being trusted means I can do just do my job__
 * Not being treated like a peon lets me work the way I need to
 * Being in control of the entire service means I can manage my business without paying for consulting
-* _Simplifying communication means employees are happier and get paid on time_
+* __Simplifying communication means employees are happier and get paid on time__
 * Employees don't embarrass themselves by submitting invalid data
 * Employees get started on the right foot with their business
 

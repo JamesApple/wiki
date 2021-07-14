@@ -265,82 +265,51 @@ Fully available babyyyy
 	* Barrow
 	* Principle
 	* Antiquary
+	* CanYou.com.au
+	* Masterfully
+	* Antiquary
+	* klassik
+	* Ushered
+	* Prompter/Prompted
+	* Spiele
+	* Leider
+	* Headman
+	* Outguard
+	* Kaihoe: Maori for rower
+	* Byword
+	* Agrus
+	* Elide
+	* Taskmancer (dotcom available)
+	* Ferrata 
+	* libreria
+	* Fylle
+	* fjell (Mountain)
+	* (ars is work/technique)
+	* flowsheet
+	* belayed
+	* Prusik
+	* The sliding friction knot developed by Karl Prusik. Made by wrapping a loop of small-diameter cord around a larger-diameter rope. The loop slides when loosened but holds by means of friction when weighted. Used for ascending fixed ropes and for rescue situations to tie off the climbing rope. Also refers to the act of ascending a fixed rope with prusik loops.
+	* gradle
+	* piton
+	* revalate
+	* unum
+	* skripti
+	* radially
+	* neolog
+	* zeroes
+	* utilitron
+	* automatron
+	* gerty
+	* astrobot
+	* workinator
+	* workdroid
+	* -ator
+	* mecha
+	* autotask
+	* asimov
 
+## Selected
 
-CanYou.com.au
+### Asimov
 
-Masterfully
-
-Antiquary
-
-klassik
-
-Ushered
-
-Prompter/Prompted
-
-Spiele
-
-Leider
-
-Headman
-
-Outguard
-
-Kaihoe: Maori for rower
-
-Byword
-
-Agrus
-
-Elide
-
-Taskmancer (dotcom available)
-
-Ferrata 
-libreria
-
-Fylle
-
-fjell (Mountain)
-
-(ars is work/technique)
-
-flowsheet
-
-belayed
-
-Prusik
-
-The sliding friction knot developed by Karl Prusik. Made by wrapping a loop of small-diameter cord around a larger-diameter rope. The loop slides when loosened but holds by means of friction when weighted. Used for ascending fixed ropes and for rescue situations to tie off the climbing rope. Also refers to the act of ascending a fixed rope with prusik loops.
-
-gradle
-
-piton
-
-revalate
-
-unum
-
-skripti
-radially
-
-neolog
-
-zeroes
-
-utilitron
-
-automatron
-
-gerty
-
-astrobot
-workinator
-workdroid
-
--ator
-
-mecha
-
-autotask
+### 

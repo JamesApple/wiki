@@ -1,8 +1,9 @@
 ---
-created: 2021-07-08T17:32:22+10:00
-modified: 2021-07-08T17:33:06+10:00
+created: '2021-07-08T07:32:22.000Z'
+modified: '2021-07-08T07:33:06.000Z'
 ---
 
 # Terraform
 
 [Terracost: get infra change pricing in PRs](https://www.infracost.io/docs/)
+

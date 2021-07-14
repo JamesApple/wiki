@@ -11,6 +11,7 @@ modified: '2021-07-03T03:29:24.000Z'
 * [IO-TS: Strict runtime typing system](https://github.com/gcanti/io-ts/blob/master/index.md)
 * [Designed: Decorator based runtime type system](https://jamesapple.github.io/ts-designed/#/)
 * [SchemaTS: Generate interfaces from Postgres](https://github.com/vramework/schemats)
+* [https://github.com/gajus/slonik](https://github.com/gajus/slonik)
 
 ## Tutorials
 

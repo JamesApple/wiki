@@ -131,3 +131,19 @@ CanYou.com.au
 Masterfully
 
 Antiquary
+
+klassik
+
+Ushered
+
+Prompter/Prompted
+
+Spiele
+
+Leider
+
+Headman
+
+Outguard
+
+Kaihoe: Maori for rower

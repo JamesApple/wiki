@@ -78,72 +78,8 @@ Each stage should generate 5 valuable names
 
 #### Quotes related to your business
 
-> There are no secrets to success. It is the result of preparation, hard work, and learning from failure. Colin Powell
-
-> Details create the big picture. Sanford I. Weill
-
-> It's OK to have your eggs in one basket as long as you control what happens to that basket. Elon Musk
-
-> When in doubt, mumble; when in trouble, delegate; when in charge, ponder. James H. Boren
-
-> Human behavior flows from three main sources: desire, emotion, and knowledge. Plato
-
 #### Books related to your business
 
 #### Find interesting names from the book you're reading
 
 ### Collect Names/Words/
-
-* Delegate
-	* Secretaryu
-	* Representative
-	* Envoy
-	* Commisioner
-	* Agent
-	* Spokesperson
-	* Attache
-	* Embassy
-	* Chancellor
-	* Emissary
-	* Specialist
-	* Messenger
-	* Trumpeter
-	* Scout
-	* Outrider
-	* Trekker (Voortrekker)
-	* Curator
-	* Commisar
-
-* Knowledge
-	* Oracle
-	* Prophet
-	* Sanctuary
-	* Rabbi
-	* Shrine
-	* Hive
-	* Barrow
-	* Principle
-	* Antiquary
-
-
-CanYou.com.au
-
-Masterfully
-
-Antiquary
-
-klassik
-
-Ushered
-
-Prompter/Prompted
-
-Spiele
-
-Leider
-
-Headman
-
-Outguard
-
-Kaihoe: Maori for rower

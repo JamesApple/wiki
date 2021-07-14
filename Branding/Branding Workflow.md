@@ -72,4 +72,20 @@ Each stage should generate 5 valuable names
 
 1. Circle and collate 5 valuable names for this stage
 
-## Stage Two:
+## Stage Two: Literary Lookup
+
+### Quotes related to your business
+
+There are no secrets to success. It is the result of preparation, hard work, and learning from failure. Colin Powell
+
+Details create the big picture. Sanford I. Weill
+
+It's OK to have your eggs in one basket as long as you control what happens to that basket. Elon Musk
+
+When in doubt, mumble; when in trouble, delegate; when in charge, ponder. James H. Boren
+
+### Books related to your business
+
+### Find interesting names from the book you're reading
+
+### 

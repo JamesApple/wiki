@@ -336,3 +336,28 @@ Fully available babyyyy
 #### Unglue
 
 #### digiglue
+
+
+
+
+# Shortlist
+
+## Synced
+
+## Taskmancer
+
+## CanYou.com.au
+
+## Masterfully
+
+## PaperChaser
+
+## Routinely
+
+## Positional
+
+## NoPaper
+
+## Flotion
+
+## Sortout

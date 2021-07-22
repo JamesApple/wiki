@@ -361,3 +361,37 @@ Fully available babyyyy
 ## Flotion
 
 ## Sortout
+
+# Phase 2
+
+* Checkbox
+* DoingDone
+* Control
+* Flowchart
+* Trigger
+* Actions
+* Rules
+* Filing
+* Folder
+* Tablet
+* Amend
+
+
+Dutiful.com.au
+Officiate.com.au
+Undertake.com.au
+Operated.com.au
+dimensionally.com.au
+Coords.com.au
+Conducted.com.au
+Featherbed.com.au
+Conformed.com.au
+JobGlob.com.au
+JobKebab.com.au
+Leadview.com.au
+yareckon.com.au
+Respective.com.au
+Siloed.com.au
+Downlink.com.au
+
+-view.com.au

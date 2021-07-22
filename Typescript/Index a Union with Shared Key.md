@@ -82,7 +82,49 @@ types cannot be used to index an object directly.
 type String<T> = T extends string ? T :	never
 ```
 
-`UnionMapped` is the final helper that will create the union
+[Extract is a builtin
+helper](https://www.typescriptlang.org/docs/handbook/utility-types.html#extracttype-union)
+that selects values from the left that can be assigned to the right like so:
 
 ```typescript
+Extract<'A' | 'B', 'B'> // 'B'
+Extract<
+	{type: 'ADMIN'; adminId: string} | {type: 'USER'; userId: string},
+	{type: 'USER'}
+	> //{type: 'USER'; userId: string}
 ```
+
+
+`UnionMapped` is the final helper that will create the indexed union.
+
+
+```typescript
+type UnionMapped<T, TK extends StringKeys<T>
+> = {
+	[K in T[TK]]:
+		Extract<
+			T, 
+			Tuple<String<TK>, K>
+		>
+}
+```
+
+# End Result:
+
+```typescript
+type StringKeys<T> = {
+  [K in keyof T]: T[K] extends string ? K : never
+}[keyof T]
+type String<T> = T extends string ? T :	never
+type Tuple<K extends string, V> = { [key in K]: V }
+
+type UnionMapped<T, TK extends StringKeys<T>
+> = {
+	[K in T[TK]]:
+		Extract<
+			T, 
+			Tuple<String<TK>, K>
+		>
+}
+```
+

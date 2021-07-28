@@ -20,5 +20,12 @@ N-1
 Push the highest element to the top of the list
 
 ```typescript
-console.log('hi')
+function bubbleSort(list: number[]) {
+    return list
+}
+
+```
+
+```typescript
+bubbleSort([1, 2, 3])
 ```

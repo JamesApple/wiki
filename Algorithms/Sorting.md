@@ -1,18 +1,3 @@
----
-jupyter:
-  jupytext:
-    formats: ipynb,md
-    text_representation:
-      extension: .md
-      format_name: markdown
-      format_version: '1.3'
-      jupytext_version: 1.11.4
-  kernelspec:
-    display_name: TypeScript
-    language: typescript
-    name: tslab
----
-
 # Bubble Sort
 
 N-1
@@ -20,12 +5,33 @@ N-1
 Push the highest element to the top of the list
 
 ```typescript
-function bubbleSort(list: number[]) {
-    return list
+
+const assert = require('assert')
+
+function bubbleSort(passed: number[]) {
+    const list = [...passed]
+    const lastIdx = list.length - 1
+
+    for (let passNo = 0; passNo < list.length; passNo++) {
+        console.log(JSON.stringify( list ))
+
+        const iterations = list.length - passNo - 1
+        for (let idx = 0; idx < iterations; idx++) {
+
+            const current = list[idx]
+            const next = list[idx + 1]
+
+            if(current > next) {
+               list[idx] = next
+               list[idx + 1] = current
+            }
+        }
+    }
+    return list;
 }
 
-```
+const randomList = Array.from({length: 100}, () => Math.floor(Math.random() * 100))
+console.log(randomList)
 
-```typescript
-bubbleSort([1, 2, 3])
+assert.deepEqual(randomList.sort((a, b) => a - b), bubbleSort(randomList))
 ```

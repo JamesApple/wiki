@@ -13,6 +13,10 @@ modified: '2021-07-03T03:29:24.000Z'
 * [SchemaTS: Generate interfaces from Postgres](https://github.com/vramework/schemats)
 * [https://github.com/gajus/slonik](https://github.com/gajus/slonik)
 
+## Blogs
+
+* [Khalil Stemmler (TS DDD)](https://khalilstemmler.com/blog/)
+
 ## Tutorials
 
 * [Building a data flow editor](https://research.protocol.ai/blog/2021/designing-a-dataflow-editor-with-typescript-and-react/)

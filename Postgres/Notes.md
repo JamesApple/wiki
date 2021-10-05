@@ -142,3 +142,89 @@ ALTER TABLE t
       SET NOT NULL
 ```
 
+
+# Average Cost By Group
+
+Given:
+┌────────────┬────────────────────┬─────────┬──────────┐
+│ product_id │    product_name    │  price  │ group_id │
+├────────────┼────────────────────┼─────────┼──────────┤
+│          1 │ Microsoft Lumia    │  200.00 │        1 │
+│          2 │ HTC One            │  400.00 │        1 │
+│          3 │ Nexus              │  500.00 │        1 │
+│          4 │ iPhone             │  900.00 │        1 │
+│          5 │ HP Elite           │ 1200.00 │        2 │
+│          6 │ Lenovo Thinkpad    │  700.00 │        2 │
+│          7 │ Sony VAIO          │  700.00 │        2 │
+│          8 │ Dell Vostro        │  800.00 │        2 │
+│          9 │ iPad               │  700.00 │        3 │
+│         10 │ Kindle Fire        │  150.00 │        3 │
+│         11 │ Samsung Galaxy Tab │  200.00 │        3 │
+└────────────┴────────────────────┴─────────┴──────────┘
+And a grouping table:
+┌──────────┬────────────┐
+│ group_id │ group_name │
+├──────────┼────────────┤
+│        1 │ Smartphone │
+│        2 │ Laptop     │
+│        3 │ Tablet     │
+└──────────┴────────────┘
+
+```sql
+SELECT
+ product_name,
+ price,
+ group_name,
+ AVG (price) OVER group_name,
+ LAG (price) OVER group_name
+FROM
+ products
+INNER JOIN product_groups USING (group_id)
+WINDOW group_name AS (PARTITION BY group_name);
+```
+
+Returns
+┌────────────────────┬─────────┬────────────┬──────────────────────┬─────────┐
+│    product_name    │  price  │ group_name │         avg          │   lag   │
+├────────────────────┼─────────┼────────────┼──────────────────────┼─────────┤
+│ HP Elite           │ 1200.00 │ Laptop     │ 850.0000000000000000 │  [NULL] │
+│ Lenovo Thinkpad    │  700.00 │ Laptop     │ 850.0000000000000000 │ 1200.00 │
+│ Sony VAIO          │  700.00 │ Laptop     │ 850.0000000000000000 │  700.00 │
+│ Dell Vostro        │  800.00 │ Laptop     │ 850.0000000000000000 │  700.00 │
+│ Microsoft Lumia    │  200.00 │ Smartphone │ 500.0000000000000000 │  [NULL] │
+│ HTC One            │  400.00 │ Smartphone │ 500.0000000000000000 │  200.00 │
+│ Nexus              │  500.00 │ Smartphone │ 500.0000000000000000 │  400.00 │
+│ iPhone             │  900.00 │ Smartphone │ 500.0000000000000000 │  500.00 │
+│ iPad               │  700.00 │ Tablet     │ 350.0000000000000000 │  [NULL] │
+│ Kindle Fire        │  150.00 │ Tablet     │ 350.0000000000000000 │  700.00 │
+│ Samsung Galaxy Tab │  200.00 │ Tablet     │ 350.0000000000000000 │  150.00 │
+└────────────────────┴─────────┴────────────┴──────────────────────┴─────────┘
+
+```sql
+
+SELECT
+ product_name,
+ price,
+ group_name,
+ RANK () OVER ( PARTITION BY group_name ORDER BY price)
+FROM
+ products
+INNER JOIN product_groups USING (group_id)
+;
+```
+
+┌────────────────────┬─────────┬────────────┬──────┐
+│    product_name    │  price  │ group_name │ rank │
+├────────────────────┼─────────┼────────────┼──────┤
+│ Sony VAIO          │  700.00 │ Laptop     │    1 │
+│ Lenovo Thinkpad    │  700.00 │ Laptop     │    1 │
+│ Dell Vostro        │  800.00 │ Laptop     │    3 │
+│ HP Elite           │ 1200.00 │ Laptop     │    4 │
+│ Microsoft Lumia    │  200.00 │ Smartphone │    1 │
+│ HTC One            │  400.00 │ Smartphone │    2 │
+│ Nexus              │  500.00 │ Smartphone │    3 │
+│ iPhone             │  900.00 │ Smartphone │    4 │
+│ Kindle Fire        │  150.00 │ Tablet     │    1 │
+│ Samsung Galaxy Tab │  200.00 │ Tablet     │    2 │
+│ iPad               │  700.00 │ Tablet     │    3 │
+└────────────────────┴─────────┴────────────┴──────┘

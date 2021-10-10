@@ -146,5 +146,5 @@ without a Java Bean.
 
 # Next books on the subjet
 
-Applying Domain-Driven Design and Patterns: With examples in C# and .NET by Jimmy Nilsson
+* Applying Domain-Driven Design and Patterns: With examples in C# and .NET by Jimmy Nilsson
 

@@ -56,13 +56,88 @@ without a Java Bean.
 * Centralize knowledge to ensure that undestanding does not beome tribalistic.
 * The design is the code and the code is the design.
 * The objective is not to model the real world but to create a model that most appropriately serves the business. The useful and realistic models do not always overlap.
+* DDD in technology is succesful when it is highly testable, less error prone, performs to SLA's, is scalable and allows distributed computing.
+* Whiteboarded diagrams are not the design. The code is the design and the whiteboard diagram is an effective method to discuss problems.
+* Bounded contexts are smaller than you expect
+* The language is only ubiquitous in the scope of a single bounded context
+
+## When not to use DDD
+1. When the required solution is primarily a CRUD product where almost every
+   operation is a simple database query.
+1. You trust your users to insert the correct data
+1. If your system requires 30 or fewer business operations
+
+## When to use DDD
+1. Are users asking for more complicated features early on in iteration?
+1. You expect the features of the product to change over years to come
+1. You don't understand the domain because it's new or nobody has done this before
+
+## What is an anemic domain model
+
+1. Do your models contain mostly public getters and setters and no business
+   logic or almost none. Like attribute holders.
+1. Does the majority of your application logic exist within the service/application tier instead of the model
+
+## What to do if your domain model is anemic
+
+Either:
+1. Embrace it and accept usage of either Active Record or Transaction Script patterns instead.
+1. Correct it immediately
+
+## How did it get anemic
+
+The majority of code is copy pasted and that code is primarily designed around
+showcasing a particular API instead of displaying best practices or application
+development.
+
+
+## Describing business actions
+
+1. No DDD
+```js
+patient.setShotType(ShotTypes.TYPE_FLU)
+patient.setDose(dose)
+patient.setNurse(nurse)
+```
+
+2. "We give flu shots to patients"
+```js
+patient.giveFluShot()
+```
+
+3. "Nurses administer flu vaccines to patients in standard doses"
+```js
+const vaccine = vaccines.standardAdultFluDose()
+nurse.administerFluVaccine(patient, vaccine)
+```
+
+## How to capture the language
+
+1. Draw pictures or diagrams of the concepts and actions that occur. Avoid
+   heavy handed UML or any ceremony.
+2. Create a glossary of terms with simple definitions
+3. If a glossary is too heavy capture some documentation such as the images above
+
+Understand that the above are temporary. The only enduring language is the one
+that the team speaks and the one in the code.
+
 
 ## Questions
 
 * When is DDD not appropriate
+  * See When to use DDD
 * How to start a project that needs DDD
 * How to sell DDD to management
+  1. The org gains a useful model of the domain
+  1. A refined, precise definition and understanding of the business is developed
+  1. Experts contribute to the design instead of being antagonists
+  1. Bettuer user experience
+  1. Clean boundaries are placed around models
+  1. Architecture is better organized
+  1. Agile, iterative, continuous modeling is used
 * What common mistakes do people make when beginning DDD
+  * Anemic domain models
+  * Thinking that business/industry standard terms need to be forced on the tech team instead of building a language together.
 
 # 2: Domains, Subdomains and Bounded Contexts
 

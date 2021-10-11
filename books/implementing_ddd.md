@@ -55,6 +55,7 @@ without a Java Bean.
 * Nobody knows everything about tthe software
 * Centralize knowledge to ensure that undestanding does not beome tribalistic.
 * The design is the code and the code is the design.
+*
 
 ## Questions
 

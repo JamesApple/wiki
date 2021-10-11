@@ -44,6 +44,18 @@ without a Java Bean.
 
 # 1: Getting started with DDD
 
+* Quality accrued from testing does not equate to a quality software model.
+  Even 100% bug free software does not necessarily equate to a well designed  model.
+* DDD is not primarily about discussion, listening understanding, discovery and business value to create a Ubiquitous Language
+* DDD requires you to humble yourself and attempt to converse with those who rarely if ever speak technically.
+
+## Why DDD
+
+* Put domain experts and developers on a level playing field to educate the developers _and_ the domain experts.
+* Nobody knows everything about tthe software
+* Centralize knowledge to ensure that undestanding does not beome tribalistic.
+* The design is the code and the code is the design.
+
 ## Questions
 
 * When is DDD not appropriate

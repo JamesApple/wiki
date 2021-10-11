@@ -55,7 +55,7 @@ without a Java Bean.
 * Nobody knows everything about tthe software
 * Centralize knowledge to ensure that undestanding does not beome tribalistic.
 * The design is the code and the code is the design.
-*
+* The objective is not to model the real world but to create a model that most appropriately serves the business. The useful and realistic models do not always overlap.
 
 ## Questions
 

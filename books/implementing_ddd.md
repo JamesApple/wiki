@@ -122,11 +122,22 @@ Understand that the above are temporary. The only enduring language is the one
 that the team speaks and the one in the code.
 
 
+## Supporting vs Core Domain
+
+Supporting domains are typically available as either generic third party
+services or can be developed by lower experience teams where DDD is less beneficial.
+
+1. Auth
+1. Billing
+1. Payments
+
+The Core Domain is the one that powers your business and provides you a
+competitive edge.
+
 ## Questions
 
 * When is DDD not appropriate
   * See When to use DDD
-* How to start a project that needs DDD
 * How to sell DDD to management
   1. The org gains a useful model of the domain
   1. A refined, precise definition and understanding of the business is developed

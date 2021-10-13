@@ -152,11 +152,31 @@ competitive edge.
 
 # 2: Domains, Subdomains and Bounded Contexts
 
+
+* Just because the term `Domain Model` has the word `Domain` does not mean it
+  is meant to span the entire domain of the business. Each model can only be modeled in regards to its current subdomain.
+* A domain model belongs to a specific subdomain. You should not force the model onto the entire business domain
+
+## Subdomain Examples
+
+1. Online Retail
+   * BC: ECommerce
+      * Orders
+      * Catalog
+      * Shipping
+      * Invoicing
+   * BC: Inventory
+      * Inventory
+   * BC: Analytics
+      * Forecasting
+
 ## Questions
 
 * What is a Domain
+   1. What an organization does and the world it does it in (e.g. Healthcare, Insurance)
 * What is a Subdomain
 * What is a Core Domain
+    1. A subdomain domain of the business that is primary to the value added by your product/service.
 * What is a Bounded Context
 * What is a Ubiquitous Language
 * What are the consequences of misapplying DDD practices

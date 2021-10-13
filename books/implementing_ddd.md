@@ -175,6 +175,7 @@ competitive edge.
 * What is a Domain
    1. What an organization does and the world it does it in (e.g. Healthcare, Insurance)
 * What is a Subdomain
+   1. Either a supporting domain or a generic domain.
 * What is a Core Domain
     1. A subdomain domain of the business that is primary to the value added by your product/service.
 * What is a Bounded Context

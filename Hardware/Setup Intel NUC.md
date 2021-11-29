@@ -116,3 +116,8 @@ pacman -S openssh
 systemctl enable sshd.service
 systemctl start sshd.service
 ```
+
+```
+pip install git+https://github.com/ansemjo/tinyssh-keyconvert
+https://github.com/grazzolini/mkinitcpio-tinyssh/pull/11/files
+```

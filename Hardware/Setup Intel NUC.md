@@ -1,5 +1,7 @@
 # Setup Intel NUC
 
+https://sylvaindurand.org/remotely-unlock-an-encrypted-system/
+
 Installing Archlinux on an Intel i3 NUC
 
 [Official Archlinux Install Guide](https://wiki.archlinux.org/title/Installation_guide)

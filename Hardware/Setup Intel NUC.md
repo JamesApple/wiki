@@ -57,5 +57,60 @@ mount /dev/sda1 /mnt/boot
 Bootstrap system
 ```sh
 pacstrap /mnt base linux linux-firmware neovim dhcpcd
+arch-chroot /mnt
+ln -sf /usr/share/zoneinfo/Australia/Sydney /etc/localtime
+hwclock --systohc
+
+# Uncomment en_US.UTF-8 in /etc/locale.gen
+locale-gen
+localectl set-locale LANG=en_US.UTF-8
+```
+Edit `/etc/mkinitcpio.conf` and add encrypt before `filesystems` and after `keyboard`
+
+`HOOKS=(base udev autodetect modconf block keyboard encrypt filesystems fsck)`
+
+Generate initramfs
+`mkinitcpio -P`
+
+Patch ucode
+`pacman -S intel-ucode`
+
+`bootctl install`
+
+Create `/boot/loader/entries/arch.conf` and replace uuid XXX... with the uuid for the root partition `nvme0n1p2` from `blkid`
+```
+title   Arch Linux
+linux   /vmlinuz-linux
+initrd  /intel-ucode.img
+initrd  /initramfs-linux.img
+options cryptdevice=UUID=XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX:cryptroot root=/dev/mapper/cryptroot rw
 ```
 
+Set `/boot/loader/loader.conf`
+```
+default      arch.conf
+timeout      5
+console-mode max
+editor       no
+```
+
+Preview config with `bootctl list`
+
+`passwd`
+
+`reboot`
+
+After reboot install SSH server
+
+
+Login with
+`root` and the password set before
+
+```sh
+systemctl enable dhcpcd
+pacman -S openssh
+
+# Set `PermitRootLogin yes` in /etc/ssh/sshd_config
+systemctl enable sshd.service
+systemctl start sshd.service
+```

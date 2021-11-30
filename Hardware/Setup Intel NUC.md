@@ -117,9 +117,12 @@ systemctl enable sshd.service
 systemctl start sshd.service
 ```
 
-```
-Issue with tinyssh is that the public key _should not_ be in tinyssh format
+Install remote unlock
 
-pip install git+https://github.com/ansemjo/tinyssh-keyconvert
-https://github.com/grazzolini/mkinitcpio-tinyssh/pull/11/files
+```
+# Tinyssh public key _should not_ be in tinyssh format on the client (!!!)
+
+pacman -S mkinitcpio-netconf mkinitcpio-tinyssh mkinitcpio-utils
+
+scp 
 ```

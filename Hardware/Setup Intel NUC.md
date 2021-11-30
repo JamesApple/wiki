@@ -124,5 +124,28 @@ Install remote unlock
 
 pacman -S mkinitcpio-netconf mkinitcpio-tinyssh mkinitcpio-utils
 
-scp 
+# Current mkinitcpio-tinyssh is broken. Patch from this url into this file 
+# https://github.com/grazzolini/mkinitcpio-tinyssh/pull/9/files
+nvim /usr/lib/initcpio/install/tinyssh
+
+
+# Update /etc/mkinitcpio.conf
+# HOOKS=(base udev autodetect modconf block netconf tinyssh encryptssh filesystems keyboard fsck)
+
+# Add ip=:::::eth0:dhcp to use DHCP over eth0 on boot
+# options ip=:::::eth0:dhcp cryptdevice=UUID=.....
+nvim /boot/loader/entries/arch.conf
+
+
+# From client
+
+scp ~/.ssh/id_ed2559.pub root@<IP>:/etc/tinyssh/root_key
+
+# From server
+mkinitcpio -P
 ```
+
+Reboot will now start the SSH server.
+
+You _always_ have to use the user `ssh root@<server>` to perform the unlock as
+only the root user is available in the initramd

@@ -118,6 +118,8 @@ systemctl start sshd.service
 ```
 
 ```
+Issue with tinyssh is that the public key _should not_ be in tinyssh format
+
 pip install git+https://github.com/ansemjo/tinyssh-keyconvert
 https://github.com/grazzolini/mkinitcpio-tinyssh/pull/11/files
 ```

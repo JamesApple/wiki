@@ -1,8 +1,5 @@
 [Finally understand JQ](https://earthly.dev/blog/jq-select/)
 
-## Convert .mov to .gif
-`ffmpeg -i INPUT.mov -pix_fmt rgb24 -r 10 OUTPUT.gif`
-
 ## If statements
 ```zsh
   if statement; then echo 'Success!'; fi

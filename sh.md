@@ -1,3 +1,60 @@
+# Associative Array
+
+```sh
+declare -A opts
+opts=(
+	["Open Jira Ticket"]=jira_ticket
+)
+
+opts["Another"]=Option
+
+# Index Access
+echo ${opts["Open Jira Ticket"]}
+
+# Echo Keys
+echo "${!opts[@]}" | rofi -dmenu -i
+
+# Echo Values
+echo "${opts[@]}"
+
+# Get one option
+option=${options[$( printf "%s\n" "${!options[@]}" | rofi -dmenu -i )]}
+
+# Iterate array
+for key in "${!opts[@]}"; do
+    echo "Key:   ${key}"
+    echo "Value: ${array[$key]}"
+done
+
+# Length
+echo "${#opts[@]}"
+```
+
+# If statements
+```zsh
+  if statement; then echo 'Success!'; fi
+
+  if ! statement; then echo 'Negated Success!'; fi
+
+  if grep 'hi' filename
+  then echo 'Found'
+  else echo 'Nope' 
+  fi
+
+  if [[ 1 > 2 ]]; then echo '1 is gt 2'; fi
+
+  if [[ -f filename.md ]] 
+  then echo 'file exists'
+  fi
+
+  if [[ -n 'String' ]]
+  then echo 'String > zero length'
+  fi
+
+  if [[ 'String' =~ '^St.*' ]]
+  then echo 'Matched regex'
+  fi
+```
 # List of file test flags
 
 -e

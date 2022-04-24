@@ -1,3 +1,4 @@
+#language #golang
 # Maps
 ```go
 stringToIntMap := make(map[string]int)

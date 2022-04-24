@@ -88,7 +88,6 @@ Relates specifically to OAuth tokens.
 #### Requirement
 
 1. Follow OWASP top 10
-2.
 
 #### Solution
 
@@ -138,4 +137,3 @@ Relates specifically to OAuth tokens.
 #### Solution
 
 1. Implement Amazon Guard Duty
-2. 

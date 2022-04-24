@@ -1,4 +1,5 @@
 # Building java with maven
+#java #language 
 
 Maven is simplest when used with this [standard repository layout](http://maven.apache.org/guides/introduction/introduction-to-the-standard-directory-layout.html)
 

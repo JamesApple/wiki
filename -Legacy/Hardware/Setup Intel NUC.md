@@ -1,4 +1,5 @@
 # Setup Intel NUC
+#hardware
 
 https://sylvaindurand.org/remotely-unlock-an-encrypted-system/
 

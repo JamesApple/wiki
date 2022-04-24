@@ -1,5 +1,5 @@
-# Bubble Sort O(N^2)
-
+#sort_algorithm 
+https://big-o.io/algorithms/comparison/bubble-sort/
 ```typescript
 function bubbleSort(passed: number[]) {
   const list = [...passed];
@@ -41,27 +41,4 @@ assert.deepEqual(sorted, bubbleSort(randomList));
 [ 12, 14, 53, 61, 81 ]
   ↓
 [ 12, 14, 53, 61, 81 ]
-```
-
-# Insertion Sort
-
-```typescript
-function insertionSort(passed: number[]) {
-  const list = [...passed];
-
-  for (let pass = 1; pass < list.length; pass++) {
-    const previousIdx = pass - 1;
-    const next = list[pass];
-
-    while(list[previousIdx ] > next && previousIdx >= 0)  {
-    console.log('a')
-
-     previousIdx--
-    }
-  }
-
-  return list
-}
-
-insertionSort([1, 4, 3, 4, 3]);
 ```
